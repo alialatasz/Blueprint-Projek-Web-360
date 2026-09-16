@@ -3,9 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Blueprint UI/UX — Virtual Tour 360 Benteng Fort Willem 1 Ambarawa
-    </title>
+    <title>Blueprint UI/UX - Jelajah Virtual ID</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700&display=swap");
       * {
@@ -477,7 +475,7 @@
       <div>
         <strong style="font-size: 18px">Blueprint UI/UX</strong
         ><span style="color: #888; font-size: 13px; margin-left: 12px"
-          >Virtual Tour 360 — Benteng Fort Willem 1 Ambarawa</span
+          >Jelajah Virtual ID - Platform Cagar Budaya</span
         >
       </div>
       <button class="print-btn" onclick="window.print()">
@@ -614,8 +612,8 @@
               margin-bottom: 16px;
             "
           >
-            Benteng<br /><span style="color: #fd6842; font-weight: 400"
-              >Pendem</span
+            Jelajah<br /><span style="color: #fd6842; font-weight: 400"
+              >Virtual ID</span
             >
           </h1>
           <p
@@ -627,10 +625,10 @@
               margin-bottom: 50px;
             "
           >
-            Fort Willem I — Ambarawa
+            Platform Cagar Budaya Indonesia
           </p>
           <p style="color: #5a6a5a; font-size: 12px; margin-bottom: 40px">
-            Virtual Tour 360° Website — Comprehensive Design System
+            Fokus Tur Saat Ini: Benteng Fort Willem I (Ambarawa)
           </p>
           <div
             style="
@@ -645,8 +643,8 @@
           >
             <div>
               <strong style="color: #8e998e; display: block; margin-bottom: 4px"
-                >Proyek</strong
-              >Virtual Tour 360°
+                >Platform</strong
+              >Jelajah Virtual ID
             </div>
             <div>
               <strong style="color: #8e998e; display: block; margin-bottom: 4px"
@@ -1540,7 +1538,84 @@
       </div>
     </div>
 
-    <!-- FRAME 10: SPLASH SCREEN WIREFRAME -->
+        <!-- FRAME 10: PORTAL UTAMA -->
+    <div class="frame">
+      <span class="frame-label">10 - Wireframe: Portal Utama Jelajah Virtual ID (Home)</span>
+      <div class="wireframe" style="height: 750px; background: #050705;">
+        
+        <!-- Navbar -->
+        <div style="position:absolute; top:0; left:0; right:0; height:80px; display:flex; align-items:center; justify-content:space-between; padding:0 50px; border-bottom:1px solid #1a201a; z-index:10; background:rgba(5,7,5,0.9); backdrop-filter:blur(10px);">
+          <div style="display:flex; align-items:center; gap:12px;">
+            <div style="width:32px; height:32px; background:#FD6842; border-radius:8px;"></div>
+            <strong style="color:#fcf4ea; font-family:'Playfair Display', serif; font-size:20px; letter-spacing:1px;">Jelajah Virtual ID</strong>
+          </div>
+          <div style="display:flex; gap:32px; color:#8e998e; font-size:13px; font-weight:600; text-transform:uppercase; letter-spacing:2px;">
+            <span style="color:#FD6842;">Katalog</span>
+            <span>Peta Nusantara</span>
+            <span>Tentang</span>
+          </div>
+        </div>
+
+        <!-- Hero Search -->
+        <div style="position:absolute; top:120px; left:50px; right:50px; z-index:5;">
+          <h1 style="font-family:'Playfair Display', serif; color:#fcf4ea; font-size:42px; margin-bottom:16px;">Jelajahi Warisan Nusantara</h1>
+          <p style="color:#8e998e; font-size:14px; max-width:600px; line-height:1.6; margin-bottom:40px;">Platform dokumentasi interaktif 360&deg; untuk berbagai cagar budaya di Indonesia. Pilih destinasi virtual Anda.</p>
+          
+          <!-- Search Bar -->
+          <div style="display:flex; gap:16px; margin-bottom:50px;">
+            <div style="flex:1; max-width:400px; height:48px; background:#101410; border:1px solid #2a302a; border-radius:12px; display:flex; align-items:center; padding:0 20px; color:#5a6a5a; font-size:13px;">Cari benteng, candi, museum...</div>
+            <div style="height:48px; padding:0 24px; background:#FD6842; color:#fff; border-radius:12px; display:flex; align-items:center; justify-content:center; font-size:13px; font-weight:600; letter-spacing:1px;">CARI</div>
+          </div>
+
+          <!-- Cards Grid -->
+          <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:24px;">
+            
+            <!-- Card 1 (Active) -->
+            <div style="background:#0a0d0a; border:1px solid #2a302a; border-radius:16px; overflow:hidden; transition:0.3s; position:relative; cursor:pointer; box-shadow:0 10px 30px rgba(253,104,66,0.1);">
+              <div style="height:180px; background:linear-gradient(to top, #0a0d0a, transparent), url('gambar/barak-sekarang.jpg') center/cover;"></div>
+              <div style="padding:24px;">
+                <div style="display:flex; gap:8px; margin-bottom:12px;">
+                  <span style="background:rgba(253,104,66,0.15); color:#FD6842; padding:4px 10px; font-size:10px; border-radius:20px; font-weight:600;">Kolonial</span>
+                  <span style="background:rgba(255,255,255,0.05); color:#8e998e; padding:4px 10px; font-size:10px; border-radius:20px;">Benteng</span>
+                </div>
+                <h3 style="color:#fcf4ea; font-family:'Playfair Display', serif; font-size:22px; margin-bottom:8px;">Fort Willem I</h3>
+                <p style="color:#8e998e; font-size:12px; margin-bottom:24px; display:flex; gap:6px; align-items:center;">📍 Ambarawa, Jawa Tengah</p>
+                <div style="width:100%; padding:12px 0; text-align:center; background:#FD6842; color:#fff; font-size:12px; font-weight:700; border-radius:8px; letter-spacing:1px;">MULAI TUR VIRTUAL</div>
+              </div>
+            </div>
+
+            <!-- Card 2 (Locked) -->
+            <div style="background:#0a0d0a; border:1px solid #1a201a; border-radius:16px; overflow:hidden; position:relative; opacity:0.6;">
+              <div style="height:180px; background:#101410; display:flex; align-items:center; justify-content:center; color:#2a302a;">[ Gambar Candi Borobudur ]</div>
+              <div style="padding:24px;">
+                <div style="display:flex; gap:8px; margin-bottom:12px;">
+                  <span style="background:rgba(255,255,255,0.05); color:#8e998e; padding:4px 10px; font-size:10px; border-radius:20px;">Candi</span>
+                </div>
+                <h3 style="color:#fcf4ea; font-family:'Playfair Display', serif; font-size:22px; margin-bottom:8px;">Candi Borobudur</h3>
+                <p style="color:#5a6a5a; font-size:12px; margin-bottom:24px;">📍 Magelang, Jawa Tengah</p>
+                <div style="width:100%; padding:12px 0; text-align:center; background:#101410; color:#5a6a5a; font-size:12px; font-weight:700; border-radius:8px; border:1px solid #1a201a; letter-spacing:1px;">SEGERA HADIR</div>
+              </div>
+            </div>
+
+            <!-- Card 3 (Locked) -->
+            <div style="background:#0a0d0a; border:1px solid #1a201a; border-radius:16px; overflow:hidden; position:relative; opacity:0.6;">
+              <div style="height:180px; background:#101410; display:flex; align-items:center; justify-content:center; color:#2a302a;">[ Gambar Keraton ]</div>
+              <div style="padding:24px;">
+                <div style="display:flex; gap:8px; margin-bottom:12px;">
+                  <span style="background:rgba(255,255,255,0.05); color:#8e998e; padding:4px 10px; font-size:10px; border-radius:20px;">Keraton</span>
+                </div>
+                <h3 style="color:#fcf4ea; font-family:'Playfair Display', serif; font-size:22px; margin-bottom:8px;">Keraton Kasunanan</h3>
+                <p style="color:#5a6a5a; font-size:12px; margin-bottom:24px;">📍 Surakarta, Jawa Tengah</p>
+                <div style="width:100%; padding:12px 0; text-align:center; background:#101410; color:#5a6a5a; font-size:12px; font-weight:700; border-radius:8px; border:1px solid #1a201a; letter-spacing:1px;">SEGERA HADIR</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FRAME 11: SPLASH SCREEN WIREFRAME -->
     <div class="frame">
       <span class="frame-label">10 — Wireframe: Splash Screen (Desktop)</span>
       <div class="wireframe" style="height: 700px">
@@ -1694,7 +1769,7 @@
       </div>
     </div>
 
-    <!-- FRAME 11: MAIN 360 VIEWER -->
+    <!-- FRAME 12: MAIN 360 VIEWER -->
     <div class="frame">
       <span class="frame-label">11 — Wireframe: Main 360° Viewer (Desktop)</span>
       <div class="wireframe" style="height: 780px">
@@ -2095,7 +2170,7 @@
       </div>
     </div>
 
-    <!-- FRAME 12: MAP OVERLAY -->
+    <!-- FRAME 13: MAP OVERLAY -->
     <div class="frame">
       <span class="frame-label">12 — Wireframe: Interactive Map Overlay</span>
       <div
@@ -2381,7 +2456,7 @@
       </div>
     </div>
 
-    <!-- FRAME 13: HISTORY MODAL -->
+    <!-- FRAME 14: HISTORY MODAL -->
     <div class="frame">
       <span class="frame-label">13 — Wireframe: Historical Info Modal</span>
       <div class="wireframe" style="height: 650px">
@@ -2539,7 +2614,7 @@
       </div>
     </div>
 
-    <!-- FRAME 14: MOBILE -->
+    <!-- FRAME 15: MOBILE -->
     <div class="frame">
       <span class="frame-label"
         >14 — Wireframe: Mobile 360 Viewer + Bottom Sheet</span
@@ -2972,7 +3047,7 @@
       </div>
     </div>
 
-    <!-- FRAME 15: USER FLOW -->
+    <!-- FRAME 16: USER FLOW -->
     <div class="frame">
       <span class="frame-label">15 — User Flow: Alur Interaksi Pengguna</span>
       <div class="section-header">
@@ -2986,7 +3061,8 @@
       <div class="flow-section">
         <pre class="mermaid">
 flowchart TD
-    Start(["Buka URL Website"]) --> Splash["Splash Screen"]
+    Start(["Buka URL Website"]) --> Portal["Portal Utama (Katalog Cagar Budaya)"]
+    Portal -->|"Pilih Fort Willem I"| Splash["Splash Screen Tur"]
     Splash -->|"Klik Masuk"| Load["Load tourData.ts"]
     Load --> Main["Main 360 Viewer"]
     Main --> A{"Pilih Aksi?"}
@@ -3013,7 +3089,7 @@ flowchart TD
       </div>
     </div>
 
-    <!-- FRAME 16: ARCHITECTURE -->
+    <!-- FRAME 17: ARCHITECTURE -->
     <div class="frame">
       <span class="frame-label">16 — Architecture Diagram</span>
       <div class="section-header">
@@ -3060,7 +3136,7 @@ graph TB
       </div>
     </div>
 
-    <!-- FRAME 17: DATA SCHEMA -->
+    <!-- FRAME 18: DATA SCHEMA -->
     <div class="frame">
       <span class="frame-label">17 — Struktur Data (JSON Schema)</span>
       <div class="section-header"><p class="num">System Design</p><h2>Skema Data (tourData.ts)</h2><p>Arsitektur data statis TypeScript yang menggerakkan sistem 360 tanpa database server.</p></div>
@@ -3068,6 +3144,15 @@ graph TB
         <div style="background:#0a0d0a; border-radius:12px; padding:24px; border:1px solid #2a302a; overflow-x:auto; box-shadow:0 10px 30px rgba(0,0,0,0.05);">
           <pre style="line-height:1.6; color:#a0aab0; font-family:monospace; font-size:13px; margin:0;">
 <span style="color:#548749;">// lib/tourData.ts</span>
+<span style="color:#FD6842;">export interface</span> HeritageSite {
+  id: <span style="color:#BAB759;">string</span>;          <span style="color:#548749;">// "fort-willem-i"</span>
+  title: <span style="color:#BAB759;">string</span>;       <span style="color:#548749;">// "Benteng Fort Willem I"</span>
+  category: <span style="color:#BAB759;">string</span>;    <span style="color:#548749;">// "Benteng"</span>
+  location: <span style="color:#BAB759;">string</span>;    <span style="color:#548749;">// "Ambarawa, Jawa Tengah"</span>
+  thumbnail: <span style="color:#BAB759;">string</span>;
+  rooms: RoomData[];
+}
+
 <span style="color:#FD6842;">export interface</span> Hotspot {
   pitch: <span style="color:#BAB759;">number</span>;
   yaw: <span style="color:#BAB759;">number</span>;
@@ -3095,7 +3180,7 @@ graph TB
       </div>
     </div>
 
-    <!-- FRAME 18: TECH STACK -->
+    <!-- FRAME 19: TECH STACK -->
     <div class="frame">
       <span class="frame-label">18 — Tech Stack Overview</span>
       <div class="section-header">
